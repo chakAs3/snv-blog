@@ -1,6 +1,6 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
+    title: 'Storybook for Vue',
     description: 'The minimalist blog theme',
     image: {
       src: '/social-card-preview.png',
@@ -26,13 +26,16 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
+      twitter: 'ChakirQatab',
       instagram: 'atinuxt',
+
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/company/nuxtlabs'
-      }
+      },
+
+      github: 'chakas3'
     },
     form: {
       successMessage: 'Message sent. Thank you!'
